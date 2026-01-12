@@ -1,0 +1,20 @@
+# vLLM End-to-End Testing Requirements
+# Install with: pip install -r requirements.txt
+
+# Core vLLM and dependencies
+vllm>=0.5.0
+torch>=2.1.0
+transformers>=4.36.0
+
+# API Server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Testing and client
+aiohttp>=3.9.0
+requests>=2.31.0
+openai>=1.3.0
+
+# Utilities
+numpy>=1.24.0
